@@ -29,6 +29,14 @@ Programar, em JAVA, um programa que valide se uma solução de uma jogada de Sud
 Alterar e evoluir o programa do 1º Passo para também solucionar uma jogada de Sudoku, e claro, utilizar a validação já implementada para validar se a solução estará correta ou não. Para isso será fornecido uma classe que conterá, ao menos, 3 jogos incompletos de Sudoku em diferentes níveis. Cabe ao programa preencher o jogo com uma solução válida.
 > As notas dadas para cada critério MULTIPLICARÃO a nota da 1ª Parte
 
+### Classe SudokuSource
+
+Classe mencionada acima que conterá:
+
+`SudokuSource::getSolvedMatrix(...)` Retorna uma matrix já preenchida/solucionada. Ela deve ser usada no VALIDADOR. Há 3 diferentes matrizes, 2 estão corretas e 1 incorreta.
+
+`SudokuSource::getUnsolvedMatrix(...)` Retorna uma matrix com números faltantes. Ela deve ser usada no SOLUCIONADOR. Há 3 diferentes níveis de matrix, da mais fácil à mais dificil.
+
 ## Regras durante o desafio
 
 1. Enquanto programam, os participantes devem commitar o código em repositório público com o nome de sua escolha;
