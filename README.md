@@ -43,7 +43,7 @@ Classe mencionada acima que conterá:
 2. Ao finalizar a 1ª Parte o participante deverá commitar o código com a mensagem "validator finished" (ex.: `git commit -m "solver finished"`);
 3. Ao finalizar a 2ª Parte o participante deverá commitar o código com a mensagem "solver finished" (ex.: `git commit -m "solver finished"`);
 4. As datas do último commit com as mensagens da 1ª e 2ª parte serão utilizadas para calcular o tempo usado no desafio pelo participante em ambas as partes respectivamente;
-5. Ao finalizar o desafio o participante deverá compartilhar o repositório do GitHub com o examinador (usar qrcode);
+5. Ao finalizar o desafio o participante deverá mostrar ao examinador o funcionamento do que foi implementado e compartilhar o repositório do GitHub (usar qrcode) para avaliação futura;
 
 ## FAQ:
 
