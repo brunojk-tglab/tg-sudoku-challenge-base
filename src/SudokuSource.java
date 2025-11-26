@@ -9,21 +9,21 @@ public class SudokuSource {
     static {
 
         solvedMatrices.put("#1", makeMatrix9x9(
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9))
+            makeBlock(bLine(1, 2, 3), bLine(7, 8, 9), bLine(4, 5, 6)),      makeBlock(bLine(4, 5, 6), bLine(1, 2, 3), bLine(7, 8, 9)),      makeBlock(bLine(7, 8, 9), bLine(4, 5, 6), bLine(1, 2, 3)), 
+            makeBlock(bLine(3, 1, 2), bLine(6, 9, 7), bLine(8, 4, 5)),      makeBlock(bLine(8, 4, 5), bLine(3, 1, 2), bLine(6, 9, 7)),      makeBlock(bLine(9, 6, 7), bLine(8, 4, 5), bLine(3, 1, 2)), 
+            makeBlock(bLine(2, 3, 1), bLine(9, 6, 8), bLine(5, 7, 4)),      makeBlock(bLine(5, 7, 4), bLine(2, 3, 1), bLine(9, 6, 8)),      makeBlock(bLine(6, 9, 8), bLine(5, 7, 4), bLine(2, 3, 1))
         ));
 
         solvedMatrices.put("#2", makeMatrix9x9(
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9))
+            makeBlock(bLine(8, 7, 5), bLine(6, 1, 3), bLine(2, 4, 9)),      makeBlock(bLine(4, 2, 9), bLine(7, 5, 8), bLine(3, 1, 6)),      makeBlock(bLine(6, 3, 1), bLine(4, 9, 2), bLine(7, 5, 8)), 
+            makeBlock(bLine(9, 8, 4), bLine(5, 6, 1), bLine(7, 3, 2)),      makeBlock(bLine(1, 7, 2), bLine(8, 4, 3), bLine(9, 6, 7)),      makeBlock(bLine(3, 6, 5), bLine(2, 7, 9), bLine(1, 8, 4)), 
+            makeBlock(bLine(1, 9, 6), bLine(3, 2, 7), bLine(4, 5, 8)),      makeBlock(bLine(2, 8, 7), bLine(5, 9, 4), bLine(6, 3, 1)),      makeBlock(bLine(5, 4, 3), bLine(8, 1, 6), bLine(9, 2, 7))
         ));
 
         solvedMatrices.put("#3", makeMatrix9x9(
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),
-            makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9)),      makeBlock(bLine(1, 2, 3), bLine(4, 5, 6), bLine(7, 8, 9))
+            makeBlock(bLine(5, 3, 4), bLine(2, 1, 7), bLine(9, 6, 8)),      makeBlock(bLine(7, 1, 9), bLine(5, 6, 8), bLine(3, 4, 2)),      makeBlock(bLine(8, 2, 6), bLine(9, 4, 3), bLine(5, 1, 7)), 
+            makeBlock(bLine(7, 2, 1), bLine(3, 5, 9), bLine(8, 4, 6)),      makeBlock(bLine(4, 3, 5), bLine(8, 2, 6), bLine(9, 7, 1)),      makeBlock(bLine(6, 8, 9), bLine(4, 7, 1), bLine(2, 3, 5)), 
+            makeBlock(bLine(1, 9, 3), bLine(4, 7, 5), bLine(6, 8, 2)),      makeBlock(bLine(6, 8, 4), bLine(2, 9, 3), bLine(1, 5, 7)),      makeBlock(bLine(7, 5, 2), bLine(1, 6, 8), bLine(3, 9, 4))
         ));
 
 
