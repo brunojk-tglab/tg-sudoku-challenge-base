@@ -4,10 +4,11 @@ Este repositório serve única e exclusivamente como base para o Sudoku Challeng
 
 ## Requisitos:
 
-1. Possuir conhecimentos básicos de lógica de programação e programar em JAVA;
-2. Possuir conta no GitHub e dar push ou fork do código em repositório público durante o desafio;
-3. Não trocar ideias (ex.: Pair Programming) com os colegas nos primeiros 30 minutos de desafio;
-4. Não usar IA, ou pesquisas na internet de maneira geral, na primeira 1h do desafio.
+1. Ter cadastro aqui -> https://career-booster-br.tglab.com/challenge
+2. Possuir conhecimentos básicos de lógica de programação e programar em JAVA;
+3. Possuir conta no GitHub e dar push ou fork do código em repositório público durante o desafio;
+4. Não trocar ideias (ex.: Pair Programming) com os colegas nos primeiros 30 minutos de desafio;
+5. Não usar IA, ou pesquisas na internet de maneira geral, na primeira 1h do desafio.
 
 ## Desafio
 
