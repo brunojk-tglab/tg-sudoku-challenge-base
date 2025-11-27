@@ -23,7 +23,7 @@ As duas partes são:
 ### 1ª Parte - Validador (Validator)
 
 Programar, em JAVA, um programa que valide se uma solução de uma jogada de Sudoku é correta ou não. Para isso será fornecido uma classe que conterá, ao menos, 3 exemplos de solução de Sudoku, onde somente 2 estarão corretas.
-> As notas dadas para cada critério SOMARAM à nota final.
+> As notas dadas para cada critério SOMARÃO à nota final.
 
 ### 2ª Parte - Solucionador (Solver)
 
